@@ -237,3 +237,28 @@ padding:35px;
 }
 
 }
+.proposal-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+#yesBtn,#noBtn{
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+}
+
+#yesBtn{
+background:#ff4d88;
+color:white;
+}
+
+#noBtn{
+background:white;
+color:#ff4d88;
+}
